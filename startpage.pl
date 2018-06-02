@@ -11,10 +11,6 @@ use Getopt::Std;
 
 binmode STDOUT, ":encoding(UTF-8)"; 
 
-#
-#sub getPageLite {
-#	my $browser = TinyWWW::UserAgent->new;
-#}
 
 sub getPage {
 	my $browser = LWP::UserAgent->new;
